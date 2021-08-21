@@ -1,5 +1,5 @@
 # DONATION WEB APP FRONTEND
-In order to run this project, place your razorpay credentials inside frontend\src\razorpay\displayRazorpay.js file. Also Replace production_domain with your server address
+In order to run this project, place your razorpay credentials inside frontend\src\razorpay\displayRazorpay.js file. Also Replace production_domain value (in same file) with your server address
 
 # Getting Started with Create React App
 
