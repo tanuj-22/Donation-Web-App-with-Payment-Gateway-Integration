@@ -1,0 +1,116 @@
+label > .amt-input {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+label > h1 {
+  display: inline-block;
+  height: 158px;
+  border: 0px;
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 113px;
+  padding-left: 15px;
+  color: white;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .amt-input {
+    width: 95vw;
+  }
+}
+#amt {
+  background: transparent;
+  height: 158px;
+  border: 0px;
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 113px;
+
+  color: white;
+  position: relative;
+
+  left: 27%;
+  direction: unset;
+  width: 40%;
+}
+
+label > #amt::placeholder {
+  color: white;
+  text-align: right;
+  border: 0px;
+}
+label > input {
+  border: 0px;
+  outline: none;
+}
+.personal-det {
+  padding: 8px;
+}
+#email-input > svg {
+  position: absolute;
+  top: 0px;
+  z-index: -2;
+}
+#email-id {
+  background: transparent;
+  position: relative;
+  background: transparent;
+
+  border: 0px;
+
+  color: white;
+  position: relative;
+}
+
+label > .email-svg {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.email-input {
+  position: relative;
+}
+#email-id {
+  background: transparent;
+  height: 78px;
+  border: 0px;
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 18px;
+  padding-left: 20px;
+  color: white;
+  position: relative;
+
+  direction: unset;
+  width: 100%;
+}
+#email-id::placeholder {
+  color: white;
+  text-align: left;
+  border: 0px;
+}
+@media screen and (max-width: 768px) {
+  .mailid,
+  .phone-svg {
+    width: 95vw;
+  }
+}
+
+.submit-btn {
+  position: relative;
+  left: 0px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+}
+.submit-btn:hover path {
+  fill: #486a7d;
+}
+
+.submit-btn:hover text {
+  fill: white;
+}
+.sub-btn-hide {
+  display: none;
+}

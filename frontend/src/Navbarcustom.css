@@ -1,0 +1,41 @@
+*{
+margin-top: 1.5px;
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 1.05rem;
+}
+
+/* .svg-text{
+  fill: black;
+}
+
+.svg-text:hover{
+  fill: aliceblue;
+  
+}
+.svg-text:hover ~ .finalsvg{
+  fill: #486A7D;
+}
+
+.finalsvg{
+  width: 100%;
+  fill: #F0B95C;
+} 
+
+ .finalsvg:hover{
+  fill : #486A7D
+}
+.finalsvg:hover ~ .svg-text{
+  fill: aliceblue;
+} */
+
+.btn-svgfinal {
+  margin-left: 111px;
+}
+
+.rightnavcomp{
+  margin-right: 25px;
+  margin-left: 25px;
+
+}
+

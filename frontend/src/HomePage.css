@@ -1,0 +1,287 @@
+.trapezium {
+  /* background: url(http://localhost:3000/images/svgfiles/rectangle10.svg); */
+  left: -53px;
+  top: -2px;
+  background-size: cover;
+  background-position: center;
+  width: 40rem;
+  height: 55rem;
+  object-fit: contain;
+  position: absolute;
+}
+
+.mainbody {
+  background: 
+  /* url(http://localhost:3000/images/svgfiles/homebg.png)  */
+  no-repeat
+    center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 110.94vh;
+  width: 100%;
+  top: 0px;
+  object-fit: contain;
+}
+.svg-button a:hover path {
+  fill: #486a7d;
+}
+.svg-button a:hover text {
+  fill: white;
+}
+.svg-button a {
+  text-decoration: none;
+}
+.homepage-btn {
+  position: absolute;
+  left: 175px;
+  top: 47.5%;
+}
+
+.trapezium h3 {
+  position: absolute;
+  width: auto;
+  left: 175px;
+  top: 6%;
+  color: white;
+  font-size: 1.05rem;
+  text-decoration: underline;
+  object-fit: contain;
+}
+
+.trapezium h1 {
+  position: absolute;
+  width: 100%;
+  left: 175px;
+  top: 11%;
+  color: white;
+  font-size: 5.3rem;
+  font-family: "Elephant";
+  font-weight: 400;
+  text-align: left;
+  object-fit: contain;
+}
+@media screen and (max-width: 560px) {
+  .trapezium h1 {
+    width: 95vw;
+    left: 100px;
+  }
+  .trapezium h3 {
+    left: 100px;
+  }
+  .homepage-btn {
+    top: 60%;
+  }
+}
+.MidBody {
+  background: url(http://localhost:3000/images/svgfiles/rectangle17.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: absolute;
+  width: 500px;
+  background-size: cover;
+  position: relative;
+  height: 12.5rem;
+  width: 28rem;
+  left: -1.75rem;
+  margin: 0px;
+}
+
+.mid-left {
+  font-family: "Elephant";
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  left: 10.688rem;
+  top: 50rem;
+  text-align: left;
+  max-width: 220px;
+}
+
+.boot-container {
+  margin: 0px;
+}
+
+.mid-right-img {
+  margin-left: 30px;
+  justify-content: center;
+}
+.mid-right-img:hover {
+  cursor: pointer;
+}
+.mid-right-font {
+  width: fit-content;
+  text-align: center;
+  width: 50vw;
+  max-width: 600px;
+  margin: 5px;
+  padding: 5px;
+}
+.mid-right-font h2,
+h3 {
+  padding-top: 15px;
+  font-size: 27px;
+  text-align: center;
+  font-weight: 400;
+}
+.mid-right-font h3 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .mid-right-font {
+    margin-left: 101px;
+  }
+}
+.card {
+  border: 0;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.card-section-container {
+  margin: 0;
+  background-color: #272525;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+}
+.card-section-container Row Col Card {
+  border-width: 0;
+}
+.card1,
+.card2,
+.card3 {
+  width: 22.5vw;
+  border-width: 0;
+}
+
+@media screen and(max-width:560px) {
+  .card-img-top {
+    width: 200px !important;
+  }
+}
+.card1:hover {
+  cursor: pointer;
+}
+
+.card2:hover {
+  cursor: pointer;
+}
+.card3:hover {
+  cursor: pointer;
+}
+.card-section-container-cardimg {
+  margin: 0;
+  padding: 0%;
+}
+.footer-img {
+  margin: 0px;
+  padding: 0px;
+  width: 98.6vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.footerdiv {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+}
+.footerdiv h1 {
+  color: antiquewhite;
+}
+.footer-btn {
+  position: absolute;
+
+  top: 49%;
+  left: 42vw;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-btn {
+    position: absolute;
+
+    margin: auto;
+    left: 27vw;
+    bottom: 10vh;
+  }
+}
+
+.title-page-bar {
+  position: relative;
+  margin: auto;
+  z-index: 0;
+  width: 100vw;
+  z-index: 0;
+  height: 140px;
+  display: flex;
+  text-align: center;
+  background-color: #485544;
+
+  align-content: center;
+  margin: auto;
+}
+
+.title-tag {
+  font-family: "Elephant";
+  color: white;
+  font-weight: 500;
+  font-size: 55px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0.1rem;
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dp-btn {
+  z-index: 2;
+  align-items: flex-start;
+  height: 30px;
+  width: 190px;
+  position: absolute;
+  top: 108px;
+  left: 50px;
+  text-align: center;
+}
+.dp-btn a {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .dp-btn {
+    position: absolute;
+
+    margin: auto;
+    left: 20px;
+    top: 179px;
+    bottom: 10vh;
+    height: 30px;
+    width: 190px;
+    z-index: 3;
+  }
+}
+
+.heading-dp {
+  font-weight: 400;
+  font-family: "Elephant";
+  font-size: 48px;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  align-items: flex-start;
+  text-align: left;
+}
+.ty-btn{
+  position: absolute;
+    right: 30px;
+    left: auto;
+    top: 20px;
+}

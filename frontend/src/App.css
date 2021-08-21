@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Elephant";
+  src: local("Elephant"), url(./fonts/Elephant.TTF) format("truetype");
+}
+/* @font-face {
+  font-family: "Elephant";
+  src: local("Elephant"), url(./fonts/Elephant\ Italics.TTF) format("truetype");
+} */
